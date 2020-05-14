@@ -4,30 +4,80 @@
 }
 
 .app {
-  height: 100vh;
-  
+  height: 100%;
   display: grid;
-  grid-template-rows: 500px 1fr;
-  grid-template-columns: 400px 2fr;
+  grid-template-rows: 412px 1fr;
+  grid-template-columns: 600px 2fr;
 }
 
 .personal-info {
   background-color: #FAFAFA;
-  height: 100vh;
+  background-image: linear-gradient(#FAFAFA , #DADADA);
+
+  height: 400%;
   padding-top: 30px;
-  padding-left: 24px;
-  padding-right: 200px;
 }
 
 .projects {
-  background-color: #F5B93D;
-  height: 100vh;
+  padding-top: 30px;
+  background-image: linear-gradient(#050950 ,#383B83 20%, darkgreen 50%, orange, red, #222222);
+  /* background-color: #050950; */
+  /* background-color: #F5B93D; */
+  height: 1650px;
   min-width: 400px;
+
+
 
 }
 
-.sidebar-text {
+.name-text {
+  margin-top: 30%;
   color: #4A4A4A;
   font-weight: 900;
   font-size: 32px;
+  padding-right: 200px;
+  padding-left: 24px;
+}
+
+.profile-description-text {
+  margin-top: 24px;
+  color: #4A4A4A;
+  font-weight: 200;
+  font-size: 18;
+  padding-left:24px;
+  padding-right: 20px;
+
+}
+
+.project-title {
+  padding-top: 16px;
+  padding-left: 28px;
+  font-size: 18px;
+  color: white;
+  font-weight: 200;
+}
+
+.project-subtitle {
+  font-size: 16px;
+  color: white;
+  font-weight: 100;
+  text-align: right;
+  padding-top: 16px;
+
+  padding-right: 28px;
+
+}
+
+.app-img-left {
+  width: 238px;
+  height: 408px;
+  padding-left: 10%;
+  padding-top: 12px;
+}
+
+.app-img-right {
+  padding-top: 60px;
+  width: 238px;
+  height: 408px;
+  padding-left: 20px;
 }
