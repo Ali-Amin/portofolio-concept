@@ -8,9 +8,9 @@ function App() {
     <div class="app">
 
       <div className="personal-info">
-        <div className="name-text">ALI MOHAMED EMAD</div>
+        <div className="name-text">ALI AMIN</div>
         <div className="profile-description-text">
-          I am a really good developer please hire me
+          description text here
         </div>
       </div>
 
